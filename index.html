@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webex Help Center</title>
+    <link rel="stylesheet" href="/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <a href="/">
+                    <img src="/images/CiscoWebex-Logo_white.avif" alt="Cisco Webex Logo" class="webex-logo">
+                </a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="https://www.webex.ai/" target="_blank">Webex AI</a></li>
+                    <li><a href="https://www.webex.ai/ai-agent.html" target="_blank">AI Agent</a></li>
+                    <li><a href="https://www.webex.ai/ai-assistant.html" target="_blank">AI Assistant</a></li>
+                    <li><a href="https://www.webex.com/us/en/products/customer-experience/contact-center.html" target="_blank">Webex Contact Center</a></li>
+                    <li><a href="https://cpaas.webex.com/" target="_blank">Webex CPaaS</a></li>
+                    <li><a href="https://www.webex.com/us/en/products/workforce-optimization.html" target="_blank">Webex WFO</a></li>
+                    <li><a href="https://help.webex.com/" target="_blank">Help Center</a></li>
+                </ul>
+            </nav>
+            <div class="header-actions">
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <div class="hero-section">
+        <div class="hero-content">
+            <div class="hero-flex-container">
+                <div class="hero-text">
+                    <h2>Where AI works for you</h2>
+                    <p>Transform experiences with AI built for your customers, your employees, and your business. When you have the most advanced AI platform, every interaction is enhanced, every decision is informed, and every moment is amplified.</p>
+                    <div class="hero-buttons">
+                        <a href="https://blog.webex.com/customer-experience/webex-ai-action-real-world-benefits-customer-employee-experiences/" class="btn--secondary--dark-black" target="_blank">
+                            Learn More <span class="icon-arrow"></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-video">
+                    <video-js id="VideoOverlayPlayer" 
+                        data-video-id="6363624396112" 
+                        data-account="1384193102001" 
+                        data-player="vlhQwNR1SU" 
+                        data-embed="default" 
+                        class="video-js video-overlay__video vjs-controls-enabled vjs-workinghover vjs-v8 vjs-layout-large"
+                        controls
+                        preload="metadata"
+                        poster="https://cf-images.us-east-1.prod.boltdns.net/v1/jit/1384193102001/ddbf5a50-0d87-4374-8b69-9f088ae154af/main/1280x720/30s805ms/match/image.jpg">
+                    </video-js>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Brightcove Player Script -->
+    <script src="https://players.brightcove.net/1384193102001/vlhQwNR1SU_default/index.min.js"></script>
+
+    <!-- Help Section -->
+    <section id="help-section" class="help-section">
+        <div class="help-container">
+            <div class="help-title">
+                <h1>How can we help you?</h1>
+            </div>
+            <div class="search-container">
+                <form id="search-form" class="search-wrapper">
+                    <input type="text" 
+                           id="search-input" 
+                           name="search-input" 
+                           placeholder="Search our knowledge base for help articles, videos and resources" 
+                           autocomplete="on"
+                           aria-label="Make a search or press Enter to access our full Search page"
+                           data-testid="search-input">
+                    <img class="cancel-icon" src="images/cancel_18.svg" alt="cancel icon" aria-label="cancel icon">
+                </form>
+            </div>
+            <div class="meeting-container">
+                <div class="meeting-wrapper">
+                    <div class="meeting-info">
+                        <img alt="Need help icon" aria-label="Need help icon" src="images/needHelpImg.svg">
+                        <h4>Got a question or need support?</h4>
+                    </div>
+                    <button class="join-meeting-btn">Just ask!</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Categories Section -->
+    <section id="categories" class="benefits">
+        <div class="benefit grid grid-padding-new">
+            <div class="benefit__benefitdetails">
+                <h2 class="benefit__title">An AI Assistant to elevate employee and customer experience.</h2>
+                <div class="benefit__description">
+                    <p>AI Assistant for Webex is with you every step of the way, improving productivity, enhancing communications and delivering more effective outcomes.</p>
+                </div>
+            </div>
+            
+            <div class="benefit__cards">
+                <div class="benefit__card">
+                    <div class="benefit__card-image" style="background-image: url('images/webex-suite.svg');"></div>
+                    <h3 class="benefit__card-title">AI Assistant for Webex Suite</h3>
+                    <div class="benefit__card-description">
+                        <p>Improve productivity of employees and get the most out of every meeting, message, and communication.</p>
+                    </div>
+                    <div class="benefit__card-cta">
+                        <a href="https://www.webex.com/whats-new?tab=tab-suite" target="_blank" class="btn btn--tertiary--black">
+                            Learn More
+                            <span class="icon-arrow"></span>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="benefit__card">
+                    <div class="benefit__card-image" style="background-image: url('images/webex-devices.svg');"></div>
+                    <h3 class="benefit__card-title">AI Assistant for Collaboration Devices</h3>
+                    <div class="benefit__card-description">
+                        <p>Create intelligent workspaces equipped with everything from voice commands and AI-driven camera views, to embedded IoT sensors.</p>
+                    </div>
+                    <div class="benefit__card-cta">
+                        <a href="https://www.webex.com/whats-new?tab=tab-devices" target="_blank" class="btn btn--tertiary--black">
+                            Learn More
+                            <span class="icon-arrow"></span>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="benefit__card">
+                    <div class="benefit__card-image" style="background-image: url('images/contact-center.svg');"></div>
+                    <h3 class="benefit__card-title">AI Assistant for Customer Experience</h3>
+                    <div class="benefit__card-description">
+                        <p>Enable agents to quickly resolve issues, improve interactions, and provide richer customer experiences.</p>
+                    </div>
+                    <div class="benefit__card-cta">
+                        <a href="https://www.webex.com/whats-new?tab=tab-customer" target="_blank" class="btn btn--tertiary--black">
+                            Learn More
+                            <span class="icon-arrow"></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <i class="fas fa-laptop-code"></i>
+                    <h3>Web Development</h3>
+                    <p>Custom websites and web applications built with modern technologies.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-mobile-alt"></i>
+                    <h3>Mobile Apps</h3>
+                    <p>Native and cross-platform mobile applications for iOS and Android.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-paint-brush"></i>
+                    <h3>UI/UX Design</h3>
+                    <p>Beautiful and intuitive user interfaces designed for optimal user experience.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form id="contact-form">
+                <div class="form-group">
+                    <input type="text" id="name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <textarea id="message" placeholder="Your Message" required></textarea>
+                </div>
+                <button type="submit" class="btn-primary">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer-container">
+            <p>© 2025 Your Company Name. All rights reserved.</p>
+            <ul>
+                <li><a href="#privacy">Privacy Policy</a></li>
+                <li><a href="#terms">Terms of Service</a></li>
+                <li><a href="#support">Support</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="/script.js"></script>
+</body>
+</html> 
